@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230313 15:21:08.118" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="d:\OneDrive - SLK Software Services Pvt Ltd\Documents\Azure\SplitPDF\tasks.robot">
+<test id="s1-t1" name="Minimal task" line="9">
+<kw name="Split Pdf" library="split">
+<arg>D:\\OneDrive - SLK Software Services Pvt Ltd\\Documents\\Python\\Split Input\\Worksoft_RPA_Orchestrator_Installation_Guide.pdf</arg>
+<arg>2,2-9,7,9-18</arg>
+<arg>D:\\OneDrive - SLK Software Services Pvt Ltd\\Documents\\Python\\Split Output</arg>
+<doc>Defining the function</doc>
+<msg timestamp="20230313 15:21:11.136" level="INFO">27</msg>
+<status status="PASS" starttime="20230313 15:21:10.779" endtime="20230313 15:21:11.139"/>
+</kw>
+<status status="PASS" starttime="20230313 15:21:10.775" endtime="20230313 15:21:11.141"/>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="PASS" starttime="20230313 15:21:08.137" endtime="20230313 15:21:11.147"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
