@@ -1,16 +1,20 @@
-# Introduction 
-This solution will split PDF files based on the parameter 
+# Template: Standard Robot Framework
 
+This is the simplest template to start from.
 
-# Getting Started
-Install the require packages mentioned in the requirement.txt
+- Get started from a simple task template in `tasks.robot`.
+  - Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
+- You can configure your robot `robot.yaml`.
+- You can configure dependencies in `conda.yaml`.
 
-# Build and Test
-Add this solution into your project folder and call the respective function "splitpdf()" 
-Input parameter - Location of the pdf file
-                - Range 
-                      -> if you have single page, mention the page number. Example : 1
-                      -> if you have range of pages, mention the range. Example : 6-9
-                      -> muliple range option. Example : 1-4, 6-7, 10
-                - Output folder location
-Output - split output multiple PDF file in the output path
+## Learning materials
+
+- [Robocorp Developer Training Courses](https://robocorp.com/docs/courses)
+- [Documentation links on Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
+- [Example bots in Robocorp Portal](https://robocorp.com/portal)
+
+- Add RPA.PDF library.
+- Add all your required input parameters like input folder path.
+- Add the page numbers that need to be splitted
+- Call Add files to PDF keyword.
+- Add the output parameter like folder path along with the file name with the extension.
